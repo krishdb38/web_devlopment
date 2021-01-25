@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is My First Java Script Program </h1>
+    <button type = "button" 
+    onclick = "document.getElementById('demo').innerHTML = Date()"> Click me to show date</button>
+    <p id="demo"></p>
+
+
+    <p> Never clal documnet.write after the document has finished loading . It will overwrite the whole documen</p>
+
+    <h2 id="demo2"> This is Demo 2</h2>
+<script>
+    document.write(5 + 7)
+    document.getElementById('demo2').innerHTML = "My name is Krish"
+</script>
+</body>
+</html>
